@@ -1,0 +1,257 @@
+2019/02/22-10:52 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 7900 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-10:52 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-10:52 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-10:52 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:52 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-10:52 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:52 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-10:52 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-10:52 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:52 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-10:52 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 275 ms
+2019/02/22-10:52 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:52 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-10:52 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-10:52 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.626 seconds (JVM running for 279.105)
+2019/02/22-10:52 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 7 ms
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Starting...
+2019/02/22-10:52 [http-nio-8011-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Start completed.
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-10:52 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-10:53 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin- Application shutdown requested.
+2019/02/22-10:53 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:53 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Shutdown initiated...
+2019/02/22-10:53 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Shutdown completed.
+2019/02/22-10:54 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-10:54 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/02/22-10:54 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-10:54 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-10:54 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:54 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-10:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-10:54 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:54 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1216 ms
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-10:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-10:54 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 2.382 seconds (JVM running for 2.946)
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/02/22-10:54 [http-nio-8011-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-10:54 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-10:55 [Thread-7] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:55 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+2019/02/22-10:55 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+2019/02/22-10:55 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-10:55 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-10:55 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-10:55 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:55 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-10:55 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:55 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-10:55 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-10:55 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:55 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-10:55 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 303 ms
+2019/02/22-10:55 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-10:55 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-10:55 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.669 seconds (JVM running for 62.388)
+2019/02/22-10:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 10 ms
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Starting...
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Start completed.
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-10:55 [http-nio-8011-exec-1] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-10:57 [Thread-11] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:57 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Shutdown initiated...
+2019/02/22-10:57 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Shutdown completed.
+2019/02/22-10:57 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-10:57 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-10:57 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-10:57 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:57 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-10:57 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:57 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-10:57 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-10:57 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:57 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-10:57 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 282 ms
+2019/02/22-10:57 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:57 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-10:57 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-10:57 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.618 seconds (JVM running for 157.943)
+2019/02/22-10:57 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 6 ms
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Starting...
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Start completed.
+2019/02/22-10:57 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==>  Preparing: update user_info set name = ?, age = ? where user_id = ? 
+2019/02/22-10:57 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==> Parameters: haha(String), 12(Integer), 2(Integer)
+2019/02/22-10:57 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- <==    Updates: 1
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-10:57 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-10:59 [Thread-17] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:59 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Shutdown initiated...
+2019/02/22-10:59 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-3 - Shutdown completed.
+2019/02/22-10:59 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-10:59 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-10:59 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-10:59 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-10:59 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:59 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-10:59 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-10:59 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:59 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 296 ms
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-10:59 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.63 seconds (JVM running for 256.524)
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 5 ms
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-4 - Starting...
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-4 - Start completed.
+2019/02/22-10:59 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==>  Preparing: update user_info set name = ?, age = ? where user_id = ? 
+2019/02/22-10:59 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==> Parameters: haha(String), 12(Integer), 2(Integer)
+2019/02/22-10:59 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- <==    Updates: 1
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-10:59 [Thread-23] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:59 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-4 - Shutdown initiated...
+2019/02/22-10:59 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-4 - Shutdown completed.
+2019/02/22-10:59 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-10:59 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-10:59 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-10:59 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-10:59 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:59 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-10:59 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-10:59 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-10:59 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 264 ms
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-10:59 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.591 seconds (JVM running for 293.844)
+2019/02/22-10:59 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 6 ms
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-5 - Starting...
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-5 - Start completed.
+2019/02/22-10:59 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==>  Preparing: update user_info set name = ?, age = ? where user_id = ? 
+2019/02/22-10:59 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==> Parameters: haha(String), 12(Integer), 2(Integer)
+2019/02/22-10:59 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- <==    Updates: 1
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-10:59 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-11:00 [Thread-29] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-11:00 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-5 - Shutdown initiated...
+2019/02/22-11:00 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-5 - Shutdown completed.
+2019/02/22-11:00 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-11:00 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-11:00 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-11:00 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-11:00 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-11:00 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-11:00 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-11:00 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-11:00 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-11:00 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-11:00 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 265 ms
+2019/02/22-11:00 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-11:00 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-11:00 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-11:00 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.599 seconds (JVM running for 327.119)
+2019/02/22-11:00 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息开始**********
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- URL : http://localhost:8011/user/update
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- IP : 0:0:0:0:0:0:0:1
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- HTTP_METHOD : POST
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印请求信息结束**********
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-6 - Starting...
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-6 - Start completed.
+2019/02/22-11:01 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==>  Preparing: update user_info set name = ?, age = ? where user_id = ? 
+2019/02/22-11:01 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- ==> Parameters: haha(String), 12(Integer), 2(Integer)
+2019/02/22-11:01 [http-nio-8011-exec-2] DEBUG com.springBoot.dome.dao.UserMapper.updateUserInfoByUserId- <==    Updates: 1
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息开始**********
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- RESULT:修改用户成功
+2019/02/22-11:01 [http-nio-8011-exec-2] INFO  com.springBoot.dome.controller.UserController- *********打印结果信息结束**********
+2019/02/22-11:02 [Thread-35] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/02/22-11:02 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-6 - Shutdown initiated...
+2019/02/22-11:02 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-6 - Shutdown completed.
+2019/02/22-11:03 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Starting DemoApplication on PKXKM1NJ2SVGPZH with PID 6836 (G:\WorkSpace\demo\target\classes started by Administrator in G:\WorkSpace\demo)
+2019/02/22-11:03 [restartedMain] INFO  com.springBoot.dome.DemoApplication- No active profile set, falling back to default profiles: default
+2019/02/22-11:03 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.springBoot.demo.dao]' package. Please check your configuration.
+2019/02/22-11:03 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-11:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8011 (http)
+2019/02/22-11:03 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-11:03 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/22-11:03 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/02/22-11:03 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener- An incompatible version [1.2.10] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019/02/22-11:03 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/22-11:03 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 259 ms
+2019/02/22-11:03 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/22-11:03 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/02/22-11:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8011 (http) with context path ''
+2019/02/22-11:03 [restartedMain] INFO  com.springBoot.dome.DemoApplication- Started DemoApplication in 0.583 seconds (JVM running for 548.458)
+2019/02/22-11:03 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/02/22-11:04 [Thread-41] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'

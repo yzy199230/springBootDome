@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.springBoot.dome.dao.UserMapper" >
+  <resultMap id="userMap" type="com.springBoot.dome.pojo.UserInfo" >
+    <id column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+    <result column="account" property="account" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    user_id, name, age, account, password
+  </sql>
+  <select id="selectUserInfoByUserId" resultMap="userMap" parameterType="java.lang.Integer" >
+    select <include refid="Base_Column_List" />
+    from user_info
+    where user_id = #{userId,jdbcType=INTEGER}
+  </select>
+  
+  <delete id="deleteUserInfo" parameterType="java.lang.Integer" >
+    delete from user_info
+    where user_id = #{userId,jdbcType=INTEGER}
+  </delete>
+  
+  <insert id="insertUserInfo" parameterType="com.springBoot.dome.pojo.UserInfo" useGeneratedKeys="true" keyProperty="userId">
+    insert into user_info (user_id, name, age)
+    values (#{userId,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER})
+  </insert>
+  
+  
+  <update id="updateUserInfoByUserId" parameterType="com.springBoot.dome.pojo.UserInfo" >
+    update user_info
+    set name = #{name,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER}
+    where user_id = #{userId,jdbcType=INTEGER}
+  </update>
+  
+  <select id="login" resultMap="userMap" parameterType="java.lang.String" >
+    select <include refid="Base_Column_List" />
+    from user_info
+    where account = #{account,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="selectUserInfoList" resultMap="userMap" parameterType="java.lang.String" >
+    select <include refid="Base_Column_List" />
+    from user_info
+  </select>
+  
+</mapper>
